@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<head>
+ <meta charset="utf-8">
+ <title>Adding Bootstrap 3 ScrollSpy via Data Attributes</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap-theme.css">
+
+ <style type="text/css">
+  body {
+  background-image:url("cat.jpg");
+     position: relative;
+   /* required */
+   padding-top: 70px;
+   /* prevent content to go underneath the fixed navbar */
+  }
+ </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#myNavbar" data-offset="70">
+ <nav id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+   <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"> 
+                    <span class="sr-only">Toggle navigation</span> 
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                </button>
+    <a class="navbar-brand" href="#">Scrollspy</a>
+   </div>
+   <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="nav navbar-nav">
+     <li class="active"><a href="#section1">Section 1</a></li>
+     <li><a href="#section2">Section 2</a></li>
+     <li><a href="#section3">Section 3</a></li>
+     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Section 4<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+       <li><a href="#section4dot1">Section 4.1</a></li>
+       <li><a href="#section4dot2">Section 4.2</a></li>
+       <li><a href="#section4dot3">Section 4.3</a></li>
+      </ul>
+     </li>
+     <li><a href="#section5">Section 5</a></li>
+    </ul>
+   </div>
+  </div>
+ </nav>
+ 
+  <script src="jquery.js"></script>
+ <script src="bootstrap.js"></script>
+ 
+<p> <a href="icon1.png" download>mahdi</a></p>
+ 
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="icon1.png" alt="سیارات" usemap="#planetmap">
+
+<map name="planetmap">
+ <area shape="rect" coords="0,0,82,126" href="icon1.png" download>
+</map>
+	
+		<video control="block" width="200" height="100">
+			<source src="Car.mp4"/>
+			
+		</video>
+</body>
+</html>
